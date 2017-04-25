@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			  xmlns:tools="http://schemas.android.com/tools"
+			  android:orientation="horizontal"
+			  android:layout_width="match_parent"
+			  android:layout_height="match_parent"
+			  >
+	<TextView
+		android:id="@+id/timestamp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		tools:text="1/2/19"/>
+	<TextView
+		android:id="@+id/event"
+		android:layout_marginLeft="16dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		tools:text="click"
+		/>
+	<TextView
+		android:id="@+id/whichbutton"
+		android:layout_marginLeft="16dp"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		tools:text="button 1"/>
+
+</LinearLayout>
